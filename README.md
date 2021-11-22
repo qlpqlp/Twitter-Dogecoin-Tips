@@ -7,7 +7,7 @@ Twitter Dogecoin Tips
 
 ## How to Install 💻
 
-1- Get an Hosting Account tor Web Server that supports ```PHP (V. 7 =>)``` + ```MySQL/MariaDB``` (also works locally with Docker or Xampp for exemple)
+1- Get an Hosting Account or Web Server that supports ```PHP (V. 7 =>)``` + ```MySQL/MariaDB``` (also works locally with Docker or Xampp for exemple)
 
 2- Create an Data Base and import the file ```twitterdogecointips.sql```
 

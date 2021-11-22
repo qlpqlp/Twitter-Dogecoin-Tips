@@ -140,7 +140,7 @@
                                     `to`
                                     ) VALUES (
                                     '$user_id',
-                                    '".$tweet->statuses[$i]->id."',
+                                    '".$tweet->data[$i]->id."',
                                     '$transaction_id',
                                     '$amount',
                                     '$to'
