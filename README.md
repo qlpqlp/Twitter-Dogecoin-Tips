@@ -1,10 +1,23 @@
-# Twitter_Dogecoin_Tips_Bridge
-Be able to send Tips from Twitter to Dogecoin Adresses easly!
+<h1 align="center">
+Twitter Dogecoin Tips
+<br><br>
+<img src="https://what-is-dogecoin.com/tips/img/Twitter_Dogecoin_Tips.jpg" alt="Twitter Dogecoin Tips" width="300"/>
+<br><br>
+</h1>
 
-**But why should I do that?!**
+## How to Install 💻
 
-* To support the Dogecoin community.
-* Just for the sake of doing it.
-* Because it's fun.
+1- Get an Hosting Account tor Web Server that supports ```PHP (V. 7 =>)``` + ```MySQL/MariaDB``` (also works locally with Docker or Xampp for exemple)
 
-... soon more information here :)
+2- Create an Data Base and import the file ```twitterdogecointips.sql```
+
+3- Get a Twitter DEV Account and create an APP and generate the Keys for V2 to be able to connect to Twitter and able to TIP!
+
+4- Open the file with any text editor ```inc/config.php``` and follow the configurations needed
+
+5- Upload all files (excluding twitterdogecointips.sql and readme.md) to your Hosting Account.
+
+6- Add a cron task to the file cron.php, and let it run every minute and enjoy it :)
+
+###Notes:
+- Open the files, try to understand how it works, make some changes and test it, learn with this :)
