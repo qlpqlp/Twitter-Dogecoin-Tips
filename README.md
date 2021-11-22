@@ -11,13 +11,15 @@ Twitter Dogecoin Tips
 
 2- Create an Data Base and import the file ```twitterdogecointips.sql```
 
-3- Get a Twitter DEV Account and create an APP and generate the Keys for V2 to be able to connect to Twitter and able to TIP!
+3- Install Dogecoin Core Wallet and enable RPC calls: https://github.com/dogecoin/dogecoin/blob/master/doc/getting-started.md
 
-4- Open the file with any text editor ```inc/config.php``` and follow the configurations needed
+4- Get a Twitter DEV Account https://dev.twitter.com/apps/ and create an APP and generate the Keys for V2 to be able to connect to Twitter and able to TIP!
 
-5- Upload all files (excluding twitterdogecointips.sql and readme.md) to your Hosting Account.
+5- Open the file with any text editor ```inc/config.php``` and follow the configurations needed
 
-6- Add a cron task to the file cron.php, and let it run every minute and enjoy it :)
+6- Upload all files (excluding twitterdogecointips.sql and readme.md) to your Hosting Account.
+
+7- Add a cron task to the file cron.php, and let it run every minute and enjoy it :)
 
 ###Notes:
 - Open the files, try to understand how it works, make some changes and test it, learn with this :)
