@@ -32,8 +32,9 @@ CREATE TABLE `tiptransactions` (
   `twitter_id` bigint(20) DEFAULT NULL,
   `transaction_id` text,
   `amount` varchar(255) DEFAULT NULL,
-  `to` varchar(255) DEFAULT NULL,
   `verified` int(1) DEFAULT NULL,
+  `to` varchar(255) DEFAULT NULL,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -51,6 +52,7 @@ CREATE TABLE `tipusers` (
   `user` varchar(255) DEFAULT NULL,
   `wallet` varchar(255) DEFAULT NULL,
   `balance` varchar(255) DEFAULT NULL,
+  `date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;

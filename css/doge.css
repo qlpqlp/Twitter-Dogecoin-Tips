@@ -1,0 +1,36 @@
+  iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+  }
+  .row{
+    text-align: center !important;
+  }
+  .col{
+    text-align: center !important;
+  }
+  .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    color: #0066CC! !important;
+  }
+  .dataTables_wrapper .dataTables_paginate .paginate_button .paginate_button:active{
+    color: #0066CC!important;
+  }
+  .even, .parent, .child{
+    background-color: rgba(255, 218, 163, 1) !important;
+  }
+  .odd{
+    background-color: transparent !important;
+  }
+  table.dataTable>tbody>tr.child ul.dtr-details {
+      width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+  .dataTables_wrapper{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    padding: 5px;
+  }

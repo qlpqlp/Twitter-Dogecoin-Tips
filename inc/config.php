@@ -4,6 +4,7 @@
 *   Author: https://twitter.com/inevitable360 and all #Dogecoin friends and familly helped will try to find a way to put all names eheh!
 *   Description: Real use case of the dogecoin.com CORE Wallet connected by RPC Calls using Old School PHP Coding with easy to learn steps (I hope lol)
 *   License: Well, do what you want with this, be creative, you have the wheel, just reenvent and do it better! Do Only Good Everyday
+*   By default only a Twitter user (Sending and Reciving the Dogecoin TIP) that has more then 69 Followers and Following more then 69 users and the account is at least 4 weeks, 6 days and 9 hours hold, can send the TIP, all the rest is restricted
 */
     // Add your Data Base credentials here!
     $dbhost = "localhost";  // put here you database adress
@@ -11,11 +12,11 @@
     $dbuser = ""; // your DB username
     $dbpass = ""; // your DB password
 
-    // Add your Dogecoin Core Node credentials here! https://github.com/dogecoin/dogecoin/blob/master/doc/getting-started.md
+    // Add your Dogecoin Core Node credentials here!
     $rpcuser = "";
     $rpcpassword = "";
     $dogecoinCoreProtocol = "http://";
-    $dogecoinCoreServer = "";
+    $dogecoinCoreServer = "localhost";
     $dogecoinCoreServerPort = 22555;
     // DANGER |||| DANGER |||| DANGER |||| DANGER
     $UnlockDogecoinWalletPassword = ""; // only used to actually send $DOGE, if you have your Dogecoin Core Wallet Encrypted like you should have :)
